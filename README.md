@@ -1,14 +1,37 @@
 # portfolio-redux
 A portfolio of my projects made in React.
 
-
 ## The Result
 [Something something!](http://google.com)
 
 ## TODO
-- [ ] Create README
-- [ ] Enumerate tasks
-- [ ] 
+- [x] Create README
+- [x] Enumerate tasks
+- [ ] Create main body: header, body, footer
+- [ ] Header
+    - [ ] My name is there
+    - [ ] Navigation options: "About Me", "Portfolio", "Contact", "Resume"
+    - [ ] Selected/current option should be highlighted somehow
+    - [ ] DOESN'T RELOAD PAGE WHEN CLICKED
+- [ ] On first load, default to "About Me" and highlight its nav button
+- [ ] "About Me" section
+    - [ ] Has a picture of me
+    - [ ] Short bio about me
+- [ ] "Portfolio" section
+    - [ ] Titled images of my projects
+    - [ ] Github links for each of them
+- [ ] "Contact" section
+    - [ ] Text inputs for "Name", "Email Address", and "Message"
+    - [ ] ON HOVER AWAY, validate fields to not be empty
+    - [ ] ON EMAIL ADDRESS CHANGE, validate to be email address
+    - [ ] Submit button
+- [ ] "Resume" section
+    - [ ] Link to resume download
+    - [ ] List of my proficiencies
+- [ ] Footer
+    - [ ] GitHub profile link
+    - [ ] LinkedIn profile link
+    - [ ] Some Other Social Media (StackOverflow)
 
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications,
