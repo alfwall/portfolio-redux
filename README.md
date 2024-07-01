@@ -7,7 +7,7 @@ A portfolio of my projects made in React.
 ## TODO
 - [x] Create README
 - [x] Enumerate tasks
-- [ ] Create main body: header, body, footer
+- [X] Create main body: header, body, footer
 - [ ] Header
     - [ ] My name is there
     - [ ] Navigation options: "About Me", "Portfolio", "Contact", "Resume"
