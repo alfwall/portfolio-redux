@@ -9,7 +9,7 @@ A portfolio of my projects made in React.
 - [x] Enumerate tasks
 - [X] Create main body: header, body, footer
 - [ ] Header
-    - [ ] My name is there
+    - [x] My name is there
     - [ ] Navigation options: "About Me", "Portfolio", "Contact", "Resume"
     - [ ] Selected/current option should be highlighted somehow
     - [ ] DOESN'T RELOAD PAGE WHEN CLICKED
