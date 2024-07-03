@@ -2,12 +2,15 @@ import "./index.css"
 
 function Footer() {
     return (
-        <footer className="col-xs-12">
-            <div className="row">
-                <a href="https://github.com/alfwall" className="col-xs-6">
+        <footer id="footer" className="col-xs-12">
+            <div id="footer" className="row">
+                <a href="https://github.com/alfwall" 
+                    className="col-xs-6"
+                    id="github-link">
                     Github
                 </a>
-                <a href="https://github.com/alfwall" className="col-xs-6">
+                <a href="https://github.com/alfwall" 
+                    className="col-xs-6">
                     LinkedIn
                 </a>
             </div>
