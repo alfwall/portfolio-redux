@@ -10,7 +10,7 @@ A portfolio of my projects made in React.
 - [X] Create main body: header, body, footer
 - [ ] Header
     - [x] My name is there
-    - [ ] Navigation options: "About Me", "Portfolio", "Contact", "Resume"
+    - [x] Navigation options: "About Me", "Portfolio", "Contact", "Resume"
     - [ ] Selected/current option should be highlighted somehow
     - [ ] DOESN'T RELOAD PAGE WHEN CLICKED
 - [ ] On first load, default to "About Me" and highlight its nav button
@@ -29,7 +29,7 @@ A portfolio of my projects made in React.
     - [ ] Link to resume download
     - [ ] List of my proficiencies
 - [ ] Footer
-    - [ ] GitHub profile link
+    - [x] GitHub profile link
     - [ ] LinkedIn profile link
     - [ ] Some Other Social Media (StackOverflow)
 
