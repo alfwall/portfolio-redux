@@ -1,14 +1,15 @@
-import "../index.css"
-
+import "./index.css"
 
 function Header() {
     return (
-        <header className="row">
-            <span className="col-sm-12">Alfred Wallace</span>
-            <a href="/" className="col-sm-12">About Me</a>
-            <a href="/portfolio" className="col-sm-12">Portfolio</a>
-            <a href="/contact" className="col-sm-12">Contact</a>
-            <a href="/resume" className="col-sm-12">Resume</a>
+        <header className="col-xs-12">
+            <div className="row">
+                <span className="col-xs-12 col-sm-3">Alfred Wallace</span>
+                <a href="/" className="col-xs-12 col-sm-2">About Me</a>
+                <a href="/portfolio" className="col-xs-12 col-sm-2">Portfolio</a>
+                <a href="/contact" className="col-xs-12 col-sm-2">Contact</a>
+                <a href="/resume" className="col-xs-12 col-sm-2">Resume</a>
+            </div>
         </header>
     );
 }

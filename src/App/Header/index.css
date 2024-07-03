@@ -1,0 +1,32 @@
+header {
+  width: 100vw;
+
+  padding: 10px;
+}
+
+header div {
+  padding: 5px;
+  background-color: rgb(23, 19, 19);
+  text-align: center;
+  vertical-align: auto;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(253, 215, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(253, 215, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: goldenrod;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}

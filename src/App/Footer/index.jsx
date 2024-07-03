@@ -1,15 +1,16 @@
-import "../index.css"
-
+import "./index.css"
 
 function Footer() {
     return (
-        <footer className="row">
-            <a href="https://github.com/alfwall" className="col-xs-4">
-                Github
-            </a>
-            <a href="https://github.com/alfwall" className="col-xs-4">
-                LinkedIn
-            </a>
+        <footer className="col-xs-12">
+            <div className="row">
+                <a href="https://github.com/alfwall" className="col-xs-6">
+                    Github
+                </a>
+                <a href="https://github.com/alfwall" className="col-xs-6">
+                    LinkedIn
+                </a>
+            </div>
         </footer>
     );
 }
