@@ -13,6 +13,10 @@ function Footer() {
                     className="col-xs-6">
                     LinkedIn
                 </a>
+                <a href="https://stackoverflow.com/users/6519655/" 
+                    className="col-sm-4 col-xs-12">
+                    StackOverflow
+                </a>
             </div>
         </footer>
     );

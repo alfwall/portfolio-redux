@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./Header"
 import Body from "./Body"
 import Footer from "./Footer"
@@ -5,11 +6,12 @@ import "../bootstrap.min.css"
 import "./index.css"
 
 function App() {
+  const [currentTab, setCurrentTab] = React.useState(0)
 
   return (
     <div className="row">
-      <Header />
-      <Body />
+      <Header onTabClick={setCurrentTab} />
+      <Body tab={currentTab} />
       <Footer />
     </div>
   )
