@@ -28,10 +28,10 @@ A portfolio of my projects made in React.
 - [ ] "Resume" section
     - [ ] Link to resume download
     - [ ] List of my proficiencies
-- [ ] Footer
+- [x] Footer
     - [x] GitHub profile link
-    - [ ] LinkedIn profile link
-    - [ ] Some Other Social Media (StackOverflow)
+    - [x] LinkedIn profile link
+    - [x] Some Other Social Media (StackOverflow)
 
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications,
