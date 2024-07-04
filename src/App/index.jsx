@@ -6,7 +6,7 @@ import "../bootstrap.min.css"
 import "./index.css"
 
 function App() {
-  const [currentTab, setCurrentTab] = React.useState(0)
+  const [currentTab, setCurrentTab] = React.useState("about-me")
 
   return (
     <div className="row">
