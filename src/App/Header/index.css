@@ -28,3 +28,7 @@
 #header a:active {
   color: rgb(24, 24, 255);
 }
+
+#header .selected-tab {
+  
+}

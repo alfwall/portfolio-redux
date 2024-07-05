@@ -7,11 +7,11 @@ import "./index.css"
 
 function App() {
   const [currentTab, setCurrentTab] = React.useState("about-me")
-
+  console.log("App() called, currentTab = " + currentTab)
   return (
     <div className="row">
-      <Header onTabClick={setCurrentTab} />
-      <Body tab={currentTab} />
+      <Header currentTab={currentTab} onTabClick={setCurrentTab} />
+      <Body currentTab={currentTab} />
       <Footer />
     </div>
   )

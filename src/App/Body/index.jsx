@@ -23,7 +23,7 @@ function Body(props) {
                 return (
                     <>
                         <div className="col-sm-6 col-xs-12">
-                            <img src="" alt="A photo of Alfred." />
+                            <img src="../../../public/selfie.jpg" alt="A photo of Alfred." />
                         </div>
                         <div className="col-sm-6 col-xs-12">
                             <h2>About Me</h2>
@@ -83,7 +83,7 @@ function Body(props) {
     return (
         <main className="col-xs-12">
             <div className="row">
-                {renderBody(props.tab)}
+                {renderBody(props.currentTab)}
             </div>
         </main>
     );

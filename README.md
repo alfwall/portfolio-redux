@@ -15,7 +15,7 @@ A portfolio of my projects made in React.
     - [ ] DOESN'T RELOAD PAGE WHEN CLICKED
 - [ ] On first load, default to "About Me" and highlight its nav button
 - [ ] "About Me" section
-    - [ ] Has a picture of me
+    - [x] Has a picture of me
     - [ ] Short bio about me
 - [ ] "Portfolio" section
     - [ ] Titled images of my projects
