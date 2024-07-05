@@ -9,26 +9,27 @@
   vertical-align: auto;
 }
 
-/* unvisited link */
-#header a:link {
-  color: rgb(253, 215, 0);
+#header span {
+  height: auto;
+  border-radius: 1px;
+  border-color: white;
 }
 
-/* visited link */
-#header a:visited {
+/* unvisited link */
+#header button {
   color: rgb(253, 215, 0);
 }
 
 /* mouse over link */
-#header a:hover {
+#header button:hover {
   color: goldenrod;
 }
 
 /* selected link */
-#header a:active {
+#header button:active {
   color: rgb(24, 24, 255);
 }
 
 #header .selected-tab {
-  
+  background-color: red;
 }
