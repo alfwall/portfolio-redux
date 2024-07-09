@@ -1,20 +1,27 @@
-import React from "react";
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import Header from "./Header"
-import Body from "./Body"
+import { AboutMe, Projects, Contact, Resume } from "./Body"
 import Footer from "./Footer"
 import "../bootstrap.min.css"
 import "./index.css"
 
+
+
 function App() {
-  const [currentTab, setCurrentTab] = React.useState("about-me")
-  console.log("App() called, currentTab = " + currentTab)
   return (
-    <div className="row">
-      <Header currentTab={currentTab} onTabClick={setCurrentTab} />
-      <Body currentTab={currentTab} />
+    <BrowserRouter>
+      <Header />
+      <Outlet />
+      <Routes>
+        <Route path="/" element={AboutMe()} />
+        <Route path="/projects" element={Projects()} />
+        <Route path="/contact" element={Contact()} />
+        <Route path="/resume" element={Resume()} />
+      </Routes>
       <Footer />
-    </div>
+
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;
