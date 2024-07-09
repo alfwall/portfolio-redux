@@ -8,7 +8,7 @@ function Header(props) {
     }
 
     function StyleTab(currentTab) {
-        console.log(`styling tab: ${currentTab} against ${props.currentTab}`);
+        //console.log(`styling tab: ${currentTab} against ${props.currentTab}`);
         if (currentTab === props.currentTab) {
             return "col-xs-12 col-sm-2 selected-tab"
         } else {
@@ -19,7 +19,7 @@ function Header(props) {
     return (
         <header id="header" className="col-xs-12">
             <div className="row">
-                <span className="col-xs-12 col-sm-3">
+                <span className="col-xs-12 col-sm-4">
                     Alfred Wallace
                 </span>
                 <button onClick={() => ChangeTab("about-me")} className={StyleTab("about-me")}>

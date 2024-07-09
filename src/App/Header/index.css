@@ -13,11 +13,14 @@
   height: auto;
   border-radius: 1px;
   border-color: white;
+  padding: 1px 15px 1px 15px;
+
 }
 
 /* unvisited link */
 #header button {
   color: rgb(253, 215, 0);
+  font-size: 16px;
 }
 
 /* mouse over link */

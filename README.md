@@ -13,10 +13,10 @@ A portfolio of my projects made in React.
     - [x] Navigation options: "About Me", "Portfolio", "Contact", "Resume"
     - [x] Selected/current option should be highlighted somehow
     - [x] DOESN'T RELOAD PAGE WHEN CLICKED
-- [ ] On first load, default to "About Me" and highlight its nav button
+- [x] On first load, default to "About Me" and highlight its nav button
 - [ ] "About Me" section
     - [x] Has a picture of me
-    - [ ] Short bio about me
+    - [x] Short bio about me
 - [ ] "Portfolio" section
     - [ ] Titled images of my projects
     - [ ] Github links for each of them
