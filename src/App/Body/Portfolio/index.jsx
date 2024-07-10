@@ -17,10 +17,10 @@ let myProjects = [
 ];
 
 
-function Projects() {
+function Portfolio() {
     return (
         <>
-        <Header selected="projects" />
+        <Header selected="portfolio" />
         <div className="col-xs-12">
             <h2>My Portfolio</h2>
             <ul>
@@ -38,4 +38,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default Portfolio;

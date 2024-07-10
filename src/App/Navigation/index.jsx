@@ -10,9 +10,9 @@ const Navigation = (props) => {
                     className={"col-xs-12 col-sm-3" + (props.selected == "about-me" ? " active" : "")}>
                     About Me
                 </NavLink>
-                <NavLink to="/projects"
-                    className={"col-xs-12 col-sm-3" + (props.selected == "projects" ? " active" : "")}>
-                    Projects
+                <NavLink to="/portfolio"
+                    className={"col-xs-12 col-sm-3" + (props.selected == "portfolio" ? " active" : "")}>
+                    Portfolio
                 </NavLink>
                 <NavLink to="/contact"
                     className={"col-xs-12 col-sm-3" + (props.selected == "contact" ? " active" : "")}>

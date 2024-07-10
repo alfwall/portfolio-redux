@@ -14,17 +14,17 @@ A portfolio of my projects made in React.
     - [x] Selected/current option should be highlighted somehow
     - [x] DOESN'T RELOAD PAGE WHEN CLICKED
 - [x] On first load, default to "About Me" and highlight its nav button
-- [ ] "About Me" section
+- [x] "About Me" section
     - [x] Has a picture of me
     - [x] Short bio about me
 - [ ] "Portfolio" section
     - [ ] Titled images of my projects
     - [ ] Github links for each of them
 - [ ] "Contact" section
-    - [ ] Text inputs for "Name", "Email Address", and "Message"
-    - [ ] ON HOVER AWAY, validate fields to not be empty
-    - [ ] ON EMAIL ADDRESS CHANGE, validate to be email address
-    - [ ] Submit button
+    - [x] Text inputs for "Name", "Email Address", and "Message"
+    - [x] ON HOVER AWAY, validate fields to not be empty
+    - [x] ON EMAIL ADDRESS CHANGE, validate to be email address
+    - [x] Submit button
 - [ ] "Resume" section
     - [ ] Link to resume download
     - [ ] List of my proficiencies

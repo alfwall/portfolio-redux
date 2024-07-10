@@ -1,8 +1,8 @@
 import "./index.css"
 
 import AboutMe from "./AboutMe";
-import Projects from "./Projects";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume";
 
-export { AboutMe, Projects, Contact, Resume };
+export { AboutMe, Portfolio, Contact, Resume };
