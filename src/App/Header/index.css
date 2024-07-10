@@ -10,29 +10,9 @@
 }
 
 #header span {
-  height: auto;
-  border-radius: 1px;
-  border-color: white;
-  padding: 1px 15px 1px 15px;
-
+  height: 100%;
+  padding: 10px 15px 10px 15px;
+  font-size: 30px;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-/* unvisited link */
-#header button {
-  color: rgb(253, 215, 0);
-  font-size: 16px;
-}
-
-/* mouse over link */
-#header button:hover {
-  color: goldenrod;
-}
-
-/* selected link */
-#header button:active {
-  color: rgb(24, 24, 255);
-}
-
-#header .selected-tab {
-  background-color: red;
-}

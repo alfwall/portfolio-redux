@@ -1,0 +1,26 @@
+nav a {
+    padding: 16px;
+}
+
+/* unvisited link */
+#header a {
+    color: rgb(253, 215, 0);
+    font-size: 16px;
+}
+
+/* mouse over link */
+#header a:hover {
+    color: goldenrod;
+}
+
+/* selected link */
+/*
+  #header a:active {
+    color: rgb(24, 24, 255);
+    background-color: red;
+  }
+  */
+
+a.active {
+    background-color: red;
+}
