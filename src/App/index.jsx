@@ -1,5 +1,9 @@
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import { AboutMe, Portfolio, Contact, Resume } from "./Body"
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom"
+import AboutMe from "./AboutMe"
+import Portfolio from "./Portfolio"
+import Contact from "./Contact"
+import Resume from "./Resume"
+
 import "../bootstrap.min.css"
 import "./index.css"
 
