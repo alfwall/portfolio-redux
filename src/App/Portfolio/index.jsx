@@ -1,6 +1,7 @@
 import Header from "../Header"
 import Footer from "../Footer"
 import Project from "../Project"
+import "./index.css"
 
 let myProjects = [
     {
@@ -22,7 +23,7 @@ function Portfolio() {
     return (
         <>
             <Header selected="portfolio" />
-            <div className="col-xs-12">
+            <div id="portfolio" className="col-xs-12">
                 <h2>My Portfolio</h2>
                 <ul className="row">
                     {myProjects.map((proj) => (
