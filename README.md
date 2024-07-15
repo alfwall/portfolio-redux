@@ -25,9 +25,9 @@ A portfolio of my projects made in React.
     - [x] ON HOVER AWAY, validate fields to not be empty
     - [x] ON EMAIL ADDRESS CHANGE, validate to be email address
     - [x] Submit button
-- [ ] "Resume" section
+- [x] "Resume" section
     - [x] Link to resume download
-    - [ ] List of my proficiencies
+    - [x] List of my proficiencies
 - [x] Footer
     - [x] GitHub profile link
     - [x] LinkedIn profile link
