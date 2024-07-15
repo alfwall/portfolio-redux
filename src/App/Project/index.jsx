@@ -1,11 +1,13 @@
 
 
-function Project({project}) {
+function Project({ project }) {
     return (
-        <li key={project.name}>
-            <a href={project.url}>{project.name}</a>
-            <p>{project.description}</p>
-            <img src={project.image} alt={project.name} />
+        <li className="col-xs-12 col-sm-6 col-md-4" key={project.name}>
+            <a href={project.url}>
+                <span>{project.name}</span>
+                <p>{project.description}</p>
+                <img src={project.image} alt={project.name} />
+            </a>
         </li>
     );
 }

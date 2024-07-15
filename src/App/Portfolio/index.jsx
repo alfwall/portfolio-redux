@@ -5,13 +5,13 @@ import Project from "../Project"
 let myProjects = [
     {
         name: "Reading Roundtable",
-        url: "",
+        url: "https://reading-roundtable-a1d1097f86e5.herokuapp.com/login",
         description: "Search and save books!",
         image: "../../reading-roundtable-screenie.png"
     },
     {
         name: "Cattzeria",
-        url: "",
+        url: "https://alfwall.github.io/catzzeria/",
         description: "A clicker game for cats that like pizza! Lasagna cats need not apply.",
         image: "../../cattzeria-screenie.png"
     }
@@ -24,7 +24,7 @@ function Portfolio() {
             <Header selected="portfolio" />
             <div className="col-xs-12">
                 <h2>My Portfolio</h2>
-                <ul>
+                <ul className="row">
                     {myProjects.map((proj) => (
                         <Project project={proj} key={proj.name} />
                     ))}
