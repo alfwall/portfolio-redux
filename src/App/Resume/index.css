@@ -1,4 +1,9 @@
+#resume-div {
+    text-align: center;
+}
+
 #resume-div img {
     max-height: 200px;
     max-width: 200px;
+    border-radius: 20px;
 }

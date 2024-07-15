@@ -7,12 +7,14 @@ let myProjects = [
     {
         name: "Reading Roundtable",
         url: "https://reading-roundtable-a1d1097f86e5.herokuapp.com/login",
+        github: "https://github.com/AdjoaHackman/reading-roundtable",
         description: "Search and save books!",
         image: "../../reading-roundtable-screenie.png"
     },
     {
         name: "Cattzeria",
         url: "https://alfwall.github.io/catzzeria/",
+        github: "https://github.com/alfwall/catzzeria",
         description: "A clicker game for cats that like pizza! Lasagna cats need not apply.",
         image: "../../cattzeria-screenie.png"
     }
