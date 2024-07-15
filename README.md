@@ -20,7 +20,7 @@ A portfolio of my projects made in React.
 - [x] "Portfolio" section
     - [x] Titled images of my projects
     - [x] Github links for each of them
-- [ ] "Contact" section
+- [x] "Contact" section
     - [x] Text inputs for "Name", "Email Address", and "Message"
     - [x] ON HOVER AWAY, validate fields to not be empty
     - [x] ON EMAIL ADDRESS CHANGE, validate to be email address

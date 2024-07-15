@@ -1,0 +1,12 @@
+form#contact-form {
+    padding: 10px;
+}
+
+#contact-form .form-group {
+    width: 100%;
+    padding: 20px;
+}
+
+#contact-form .button-holder {
+    text-align: center;
+}
