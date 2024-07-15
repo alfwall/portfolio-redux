@@ -2,7 +2,7 @@
 A portfolio of my projects made in React.
 
 ## The Result
-[Something something!](http://google.com)
+[My portfolio!](https://chic-semifreddo-9d9bd7.netlify.app/)
 
 ## TODO
 - [x] Create README
