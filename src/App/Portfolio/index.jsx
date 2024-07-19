@@ -5,6 +5,13 @@ import "./index.css"
 
 let myProjects = [
     {
+        name: "E-Coffee",
+        url: "https://e-coffee-7d6cb3a5dc4c.herokuapp.com/",
+        github: "https://github.com/lelisiario/E-Coffee",
+        description: "Peruse and purchase coffee and tea potables!",
+        image: "../../ecoffee-screenie.png"
+    },
+    {
         name: "Reading Roundtable",
         url: "https://reading-roundtable-a1d1097f86e5.herokuapp.com/login",
         github: "https://github.com/AdjoaHackman/reading-roundtable",
